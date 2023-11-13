@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './dist/css/main.css'
+import './css/main.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { MetaMaskUIProvider } from '@metamask/sdk-react-ui';
 
