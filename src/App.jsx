@@ -1,6 +1,6 @@
 // import { useState } from 'react';
 import { Routes, Route } from "react-router-dom"
-import AuthLayout from "./pages/auth/authLayout"
+import AuthLayout from "./pages/auth/AuthLayout"
 import SignInComponent from "./pages/auth/SignInComponent"
 import SignUpComponent from "./pages/auth/SignUpComponent"
 import RootLayout from "./pages/root/RootLayout"
