@@ -17,8 +17,8 @@ function App() {
         <Route path="/sign-up" element={<SignUpComponent/>}/>
       </Route>
       {/* Private route */}
-      <Route element={<PrivateComponent children={<RootLayout/>}></PrivateComponent>}>
-        <Route index element={<Homepage/>}/>
+      <Route element={<RootLayout/>}>
+        <Route index element={<PrivateComponent redirectTo="'/sign-in"><Homepage/></PrivateComponent>}/>
       </Route>
     </Routes>
   </>
