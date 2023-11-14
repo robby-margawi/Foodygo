@@ -16,7 +16,7 @@
     display: flex;
 }
 
-/* Navbar style */
+/* Navbar style
 .navbar {
     position: fixed !important;
     padding: 15px 0px 15px 0px !important;
@@ -55,7 +55,7 @@ header {
     background: #c6ffdd;
     background: -webkit-linear-gradient(to left, #f7797d, #fbd786, #c6ffdd);
     background: linear-gradient(to left, #f7797d, #fbd786, #c6ffdd)
-}
+} */
 
 /* Authentication style */
 html,
@@ -86,4 +86,15 @@ body {
 
 .auth-layout{
     margin:auto
+}
+
+.root-layout{    
+    width: 100%;
+    & .content{
+        display: block;        
+        background-color: #dc3545;
+        & .metamask-button-wrapper {
+            float: right;
+        }
+    }
 }
