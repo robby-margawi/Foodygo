@@ -18,7 +18,7 @@ function App() {
       </Route>
       {/* Private route */}
       <Route element={<RootLayout/>}>
-        <Route index element={<PrivateComponent redirectTo="'/sign-in"><Homepage/></PrivateComponent>}/>
+        <Route index element={<PrivateComponent redirectTo="/sign-in"><Homepage/></PrivateComponent>}/>
       </Route>
     </Routes>
   </>
