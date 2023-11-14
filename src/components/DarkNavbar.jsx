@@ -10,15 +10,15 @@ function DarkNavbar({userName}) {
       <Container>
         <Navbar.Brand href="/">Foodygo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <Navbar.Text>
-            Wellcome, {userName}
-            </Navbar.Text>
+            <Nav.Link href="#link">Link</Nav.Link>            
           </Nav>
         </Navbar.Collapse>
+        <Navbar.Text>
+            Wellcome, {userName}
+        </Navbar.Text>
       </Container>
     </Navbar>
 

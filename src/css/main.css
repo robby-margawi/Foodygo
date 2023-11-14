@@ -92,7 +92,6 @@ body {
     width: 100%;
     & .content{
         display: block;        
-        background-color: #dc3545;
         & .metamask-button-wrapper {
             float: right;
         }
